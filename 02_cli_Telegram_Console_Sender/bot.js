@@ -2,16 +2,16 @@ const TelegramBot = require('node-telegram-bot-api');
 const program = require('commander');
 
 //  Telegram token 
-const token = '5242776915:AAEn2PMSnZ1fPakjEw0nQr7NswSx5zZkNPA';
+const token = '------';
 
 // new bot 
 const bot = new TelegramBot(token, {polling: false});
 
 //id of my account
-const chatId = '678654162';
+const chatId = '-----';
 
 // the message 
-const message = 'Hello guys';
+
 
 program
   .command('send-message <message>')
