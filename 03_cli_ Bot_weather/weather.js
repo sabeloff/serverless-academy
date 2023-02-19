@@ -3,7 +3,7 @@ const axios = require('axios');
 
 
 //  Telegram token MoodWeatherBot
-const token = '5740557658:AAFpCROOT79Ynh4ngXnE_YLlWRvnM_vcdYY';
+const token = 'my-token';
 
 // new bot 
 const bot = new TelegramBot(token, {polling: true});
