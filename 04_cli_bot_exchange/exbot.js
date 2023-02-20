@@ -5,7 +5,7 @@ const NodeCache = require('node-cache');
 const cache = new NodeCache({ stdTTL: 60, checkperiod: 120 });
 
 
-const token = '5740557658:AAFpCROOT79Ynh4ngXnE_YLlWRvnM_vcdYY';
+const token = '_____deleted____';
 const bot = new TelegramBot(token, { polling: true });
 const endpoint='https://api.monobank.ua/bank/currency';
 
